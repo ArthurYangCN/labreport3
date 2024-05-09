@@ -30,6 +30,8 @@ public void testReverseInPlace2() {
 
 3: The symptom is that the test fail because it incorrectly reversed array that didn’t match the expected array.
 
+![Image](screenshot.png)
+
 The output is `arrays first differed at element [2]; expected:<1> but was:<3>.`
 
 The bug: reverseInPlace method doesn't correctly complete the swap.
