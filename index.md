@@ -2,7 +2,7 @@
 1: A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown).
 
 Buggy Program:
-`  static void reverseInPlace(int[] arr) {
+`  static void reverseInPlace(int[] arr) {/n
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
